@@ -626,6 +626,8 @@ footer {
   }
 }
 
+
+
 // SCREEN SIZE UNDER 480PX
 @media only screen and(max-width: 480px) {
   .showcase {
@@ -645,7 +647,7 @@ footer {
     display: block;
 
     & li {
-      font-size: 2rem;
+      font-size: 1.4rem;
       padding: 0;
 
       &:hover span{
