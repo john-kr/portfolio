@@ -631,5 +631,63 @@ footer .sns-container .sns-item {
   .company-details-sec .company-details-container .details-img img {
     height: 26vh;
   }
+  .business-lineup-sec {
+    height: 70vh;
+  }
+  .business-lineup-sec .business-lineup-container .business-lineup-content {
+    display: block;
+  }
+  .business-lineup-sec .business-lineup-container .business-lineup-content .business-lineup-title {
+    width: 100%;
+    display: block;
+    padding: 10% 0;
+  }
+  .business-lineup-sec .business-lineup-container .business-lineup-content .business-lineup-list-container {
+    display: block;
+    width: 100%;
+  }
+  .business-lineup-sec .business-lineup-container .business-lineup-content .business-lineup-list-container .business-lineup-item {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .ceo-sec .ceo-container .ceo-content {
+    display: block;
+  }
+  .ceo-sec .ceo-container .ceo-content .ceo-img {
+    width: 100%;
+    padding: 0;
+    height: 30vh;
+  }
+  .ceo-sec .ceo-container .ceo-content .ceo-img img {
+    width: 40%;
+  }
+  .ceo-sec .ceo-container .ceo-content .ceo-messages-container {
+    width: 100%;
+    padding: 1rem;
+    height: 75vh;
+  }
+  .ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-content .ceo-profile p {
+    padding-top: 1rem;
+  }
+  .ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-switcher {
+    display: none;
+  }
+  footer {
+    height: 110px;
+    padding: 0 1rem;
+  }
+  footer .footer-title {
+    margin-bottom: 0;
+    bottom: 40px;
+  }
+  footer ul.footer-links {
+    margin-bottom: 1rem;
+  }
+  footer ul.footer-links .footer-link {
+    font-size: 12px;
+    padding: 0 3px;
+  }
+  footer .sns-container {
+    display: none;
+  }
 }
 /*# sourceMappingURL=about.css.map */
