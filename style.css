@@ -589,6 +589,10 @@ ul {
   opacity: 1 !important;
 }
 
+.noshow {
+  opacity: 0;
+}
+
 .contact-content {
   text-align: center;
   margin-top: 15rem;
