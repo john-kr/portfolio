@@ -47,20 +47,28 @@ ul {
     height: 100%;
   }
 
-  & h1 {
+  & h2 {
     font-size: 4rem;
     color: #fff;
   }
 
-  & p {
-    font-size: 1.3rem;
+  & h3 {
+    font-size: 1.8rem;
     color: #fff;
+    margin: 2rem 0;
+  }
+
+  & p {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 8rem;
+    margin-bottom: 3rem;
   }
 }
 
 .showcase::before {
   content: "";
-  background-image: url(./images/bg01.png);
+  background-image: url(./images/top-sea.png);
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -74,7 +82,7 @@ ul {
 .btn {
   display: inline-block;
   border: none;
-  color: #fff;
+  color: #000000;
   background-color: var(--primary-color);
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
@@ -273,7 +281,7 @@ ul {
 
     & p {
       font-size: 2rem;
-      color: #fff;
+      color: #000000;
     }
   }
 
@@ -316,12 +324,12 @@ ul {
           font-size: 2rem;
           margin-top: 5rem;
           padding-left: 1rem;
-          color: #fff;
+          color: #000000;
         }
 
         & p:last-child {
           padding: 0 2rem;
-          color: #fff;
+          color: #000000;
         }
       }
 
@@ -485,7 +493,7 @@ ul {
         margin: 0 auto;
 
         & p:nth-child(1) {
-          color: #fff;
+          color: #000000;
           z-index: 2;
         }
 
@@ -593,23 +601,26 @@ footer {
   background-color: var(--primary-color);
   padding: 0 3rem;
   position: relative;
+  color: #000000 !important;
 
   & .footer-title {
     margin-bottom: 1rem;
     position: absolute;
     bottom: 70px;
     font-size: 1.3rem;
-    color: #fff;
+    color: #000000;
   }
 
   & .footer-links {
     margin-bottom: 3rem;
     position: absolute;
     bottom: 0;
-
+    color: #000000;
+    
     & .footer-link {
       padding: 0 1rem;
       transition: text-decoration 3s ease;
+      color: #000000 !important;
 
       &:hover {
         opacity: 0.6;
@@ -637,7 +648,7 @@ footer {
   .showcase {
     height: 70vh;
 
-    & h1 {
+    & h2 {
       font-size: 2rem;
     }
 
@@ -838,18 +849,22 @@ footer {
   footer {
     height: 110px;
     padding: 0 1rem;
+    color: #000000 !important;
 
     & .footer-title {
       margin-bottom: 0;
       bottom: 40px;
+      color: #000000;
     }
 
     & ul.footer-links {
       margin-bottom: 1rem;
+      color: #000000;
 
       & .footer-link {
         font-size: 12px;
         padding: 0 3px;
+        color: #000000;
       }
     }
 

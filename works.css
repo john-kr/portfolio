@@ -291,6 +291,126 @@ ul {
           transform: translateX(0);
 }
 
+.work-section .work-container {
+  margin: 0 5rem;
+}
+
+.work-section .work-container .single-work-container:nth-child(2n) {
+  margin-top: 110px;
+}
+
+.work-section .work-container p {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.work-section .works-list-top,
+.work-section .works-list-middle,
+.work-section .works-list-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work-section .works-list-top .single-work-container,
+.work-section .works-list-middle .single-work-container,
+.work-section .works-list-bottom .single-work-container {
+  width: 50%;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content,
+.work-section .works-list-middle .single-work-container .single-work-content,
+.work-section .works-list-bottom .single-work-container .single-work-content {
+  position: relative;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content .work-img-container,
+.work-section .works-list-middle .single-work-container .single-work-content .work-img-container,
+.work-section .works-list-bottom .single-work-container .single-work-content .work-img-container {
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content img,
+.work-section .works-list-middle .single-work-container .single-work-content img,
+.work-section .works-list-bottom .single-work-container .single-work-content img {
+  width: 100%;
+  height: 330px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content .work-title,
+.work-section .works-list-middle .single-work-container .single-work-content .work-title,
+.work-section .works-list-bottom .single-work-container .single-work-content .work-title {
+  position: absolute;
+  top: 0;
+  left: 2rem;
+  color: #fff;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content .work-description,
+.work-section .works-list-middle .single-work-container .single-work-content .work-description,
+.work-section .works-list-bottom .single-work-container .single-work-content .work-description {
+  position: absolute;
+  color: white;
+  top: 40%;
+  padding: 0 3rem;
+  font-size: 1.6rem;
+  opacity: 0;
+  width: 100%;
+  height: 0%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content:hover img,
+.work-section .works-list-middle .single-work-container .single-work-content:hover img,
+.work-section .works-list-bottom .single-work-container .single-work-content:hover img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.work-section .works-list-top .single-work-container .single-work-content:hover .work-description,
+.work-section .works-list-middle .single-work-container .single-work-content:hover .work-description,
+.work-section .works-list-bottom .single-work-container .single-work-content:hover .work-description {
+  opacity: 1;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content:hover .work-title,
+.work-section .works-list-middle .single-work-container .single-work-content:hover .work-title,
+.work-section .works-list-bottom .single-work-container .single-work-content:hover .work-title {
+  z-index: 2;
+}
+
+.work-section .works-list-top .single-work-container .single-work-content:hover .single-work-bg,
+.work-section .works-list-middle .single-work-container .single-work-content:hover .single-work-bg,
+.work-section .works-list-bottom .single-work-container .single-work-content:hover .single-work-bg {
+  width: 100%;
+}
+
+.work-section .works-list-top .single-work-container .single-work-bg,
+.work-section .works-list-middle .single-work-container .single-work-bg,
+.work-section .works-list-bottom .single-work-container .single-work-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(24, 39, 51, 0.8);
+  width: 0%;
+  height: 330px;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
 .backtotop {
   width: 100%;
   height: 30px;
@@ -325,6 +445,8 @@ footer {
   background-color: var(--primary-color);
   padding: 0 3rem;
   position: relative;
+  margin-top: 10rem;
+  padding-top: 10rem;
 }
 
 footer .footer-title {

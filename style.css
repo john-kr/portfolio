@@ -59,19 +59,27 @@ ul {
   height: 100%;
 }
 
-.showcase h1 {
+.showcase h2 {
   font-size: 4rem;
   color: #fff;
 }
 
-.showcase p {
-  font-size: 1.3rem;
+.showcase h3 {
+  font-size: 1.8rem;
   color: #fff;
+  margin: 2rem 0;
+}
+
+.showcase p {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0 8rem;
+  margin-bottom: 3rem;
 }
 
 .showcase::before {
   content: "";
-  background-image: url(./images/bg01.png);
+  background-image: url(./images/top-sea.png);
   background-position: center center;
   background-size: cover;
   position: absolute;
@@ -85,7 +93,7 @@ ul {
 .btn {
   display: inline-block;
   border: none;
-  color: #fff;
+  color: #000000;
   background-color: var(--primary-color);
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
@@ -323,7 +331,7 @@ ul {
 
 .works-and-business-container .top-works-title p {
   font-size: 2rem;
-  color: #fff;
+  color: #000000;
 }
 
 .works-and-business-container .border {
@@ -373,12 +381,12 @@ ul {
   font-size: 2rem;
   margin-top: 5rem;
   padding-left: 1rem;
-  color: #fff;
+  color: #000000;
 }
 
 .items-container .single-item:hover .back-item p:last-child {
   padding: 0 2rem;
-  color: #fff;
+  color: #000000;
 }
 
 .items-container .single-item:hover .works-img-container > p {
@@ -560,7 +568,7 @@ ul {
 }
 
 .our-features-sec .features-list-container .single-feature .feature-details p:nth-child(1) {
-  color: #fff;
+  color: #000000;
   z-index: 2;
 }
 
@@ -665,6 +673,7 @@ footer {
   background-color: var(--primary-color);
   padding: 0 3rem;
   position: relative;
+  color: #000000 !important;
 }
 
 footer .footer-title {
@@ -672,13 +681,14 @@ footer .footer-title {
   position: absolute;
   bottom: 70px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #000000;
 }
 
 footer .footer-links {
   margin-bottom: 3rem;
   position: absolute;
   bottom: 0;
+  color: #000000;
 }
 
 footer .footer-links .footer-link {
@@ -687,6 +697,7 @@ footer .footer-links .footer-link {
   transition: -webkit-text-decoration 3s ease;
   transition: text-decoration 3s ease;
   transition: text-decoration 3s ease, -webkit-text-decoration 3s ease;
+  color: #000000 !important;
 }
 
 footer .footer-links .footer-link:hover {
@@ -709,7 +720,7 @@ footer .sns-container .sns-item {
   .showcase {
     height: 70vh;
   }
-  .showcase h1 {
+  .showcase h2 {
     font-size: 2rem;
   }
   .showcase p {
@@ -864,17 +875,21 @@ footer .sns-container .sns-item {
   footer {
     height: 110px;
     padding: 0 1rem;
+    color: #000000 !important;
   }
   footer .footer-title {
     margin-bottom: 0;
     bottom: 40px;
+    color: #000000;
   }
   footer ul.footer-links {
     margin-bottom: 1rem;
+    color: #000000;
   }
   footer ul.footer-links .footer-link {
     font-size: 12px;
     padding: 0 3px;
+    color: #000000;
   }
   footer .sns-container {
     display: none;
