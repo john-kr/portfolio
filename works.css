@@ -76,7 +76,7 @@ ul {
   vertical-align: middle;
 }
 
-.showcase h1 {
+.showcase h2 {
   font-size: 2.5rem;
 }
 
@@ -256,7 +256,7 @@ ul {
 }
 
 .menu-wrap .menu > div > div > ul > li {
-  color: #fff;
+  color: #000000;
   list-style: none;
   font-size: 2.2rem;
   padding: 1rem;
@@ -264,12 +264,16 @@ ul {
   transition: all 0.4s ease;
 }
 
+.menu-wrap .menu > div > div > ul > li a {
+  color: #000000;
+}
+
 .menu-wrap .menu > div > div > ul > li .arrow {
   position: relative;
   display: inline-block;
   padding: 0;
   margin-right: 20px;
-  color: #fff;
+  color: #000000;
   vertical-align: middle;
   font-size: 3rem;
   -webkit-transform: translateX(-300px);
@@ -454,7 +458,11 @@ footer .footer-title {
   position: absolute;
   bottom: 70px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #000000;
+}
+
+footer .footer-title a {
+  color: #000000;
 }
 
 footer .backtotop {
@@ -500,6 +508,10 @@ footer .footer-links .footer-link {
   transition: text-decoration 3s ease, -webkit-text-decoration 3s ease;
 }
 
+footer .footer-links .footer-link a {
+  color: #000000;
+}
+
 footer .footer-links .footer-link:hover {
   opacity: 0.6;
   text-decoration: line-through;
@@ -518,17 +530,81 @@ footer .sns-container .sns-item {
 
 @media only screen and (max-width: 480px) {
   .showcase {
-    height: 45vh;
+    height: 40vh;
   }
   .showcase .showcase-inner .showcase-inner-textcontainer {
-    height: 23vh;
+    height: 20vh;
   }
-  .showcase .showcase-inner .showcase-inner-textcontainer h1 {
+  .showcase .showcase-inner .showcase-inner-textcontainer h2 {
     font-size: 1.5rem;
+  }
+  .showcase .showcase-inner .showcase-inner-textcontainer p {
+    margin-top: 50px;
+  }
+  .menu-wrap .menu > div > div ul {
+    display: block;
+  }
+  .menu-wrap .menu > div > div ul li {
+    font-size: 1.4rem;
+    padding: 0;
+  }
+  .menu-wrap .menu > div > div ul li:hover span {
+    display: none;
+  }
+  .work-section .work-container {
+    margin: 0;
+  }
+  .work-section .work-container p {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  .work-section .work-container .works-list-top,
+  .work-section .work-container .works-list-middle,
+  .work-section .work-container .works-list-bottom {
+    display: block;
+  }
+  .work-section .work-container .works-list-top .single-work-container,
+  .work-section .work-container .works-list-middle .single-work-container,
+  .work-section .work-container .works-list-bottom .single-work-container {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .work-section .work-container .works-list-top .single-work-container .single-work-content:hover img,
+  .work-section .work-container .works-list-middle .single-work-container .single-work-content:hover img,
+  .work-section .work-container .works-list-bottom .single-work-container .single-work-content:hover img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .work-section .work-container .works-list-top .work-img-container,
+  .work-section .work-container .works-list-middle .work-img-container,
+  .work-section .work-container .works-list-bottom .work-img-container {
+    height: 156px;
+  }
+  .work-section .work-container .works-list-top .work-img-container img,
+  .work-section .work-container .works-list-middle .work-img-container img,
+  .work-section .work-container .works-list-bottom .work-img-container img {
+    height: 156px;
+  }
+  .work-section .work-container .works-list-top .work-img-container .work-description,
+  .work-section .work-container .works-list-middle .work-img-container .work-description,
+  .work-section .work-container .works-list-bottom .work-img-container .work-description {
+    font-size: 1rem;
+  }
+  .work-section .work-container .works-list-top .single-work-bg,
+  .work-section .work-container .works-list-middle .single-work-bg,
+  .work-section .work-container .works-list-bottom .single-work-bg {
+    height: 100%;
+  }
+  .backtotop {
+    margin-top: 4rem;
+  }
+  .backtotop .backtotop-btn::after {
+    height: 35px;
   }
   footer {
     height: 110px;
     padding: 0 1rem;
+    margin: 0;
   }
   footer .footer-title {
     margin-bottom: 0;

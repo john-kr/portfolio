@@ -59,22 +59,27 @@ ul {
   height: 100%;
 }
 
+.showcase .showcase-inner .oluolu-description {
+  margin: 0;
+  padding: 0;
+}
+
 .showcase h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
 }
 
 .showcase h3 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   color: #fff;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
 }
 
 .showcase p {
   font-size: 1.2rem;
   color: #fff;
-  padding: 0 8rem;
-  margin-bottom: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 .showcase::before {
@@ -267,7 +272,7 @@ ul {
 }
 
 .menu-wrap .menu > div > div > ul > li {
-  color: #fff;
+  color: #000000;
   list-style: none;
   font-size: 2.2rem;
   padding: 1rem;
@@ -275,12 +280,16 @@ ul {
   transition: all 0.4s ease;
 }
 
+.menu-wrap .menu > div > div > ul > li a {
+  color: #000000;
+}
+
 .menu-wrap .menu > div > div > ul > li .arrow {
   position: relative;
   display: inline-block;
   padding: 0;
   margin-right: 20px;
-  color: #fff;
+  color: 000000;
   vertical-align: middle;
   font-size: 3rem;
   -webkit-transform: translateX(-300px);
@@ -698,6 +707,10 @@ footer .footer-links .footer-link {
   transition: text-decoration 3s ease;
   transition: text-decoration 3s ease, -webkit-text-decoration 3s ease;
   color: #000000 !important;
+}
+
+footer .footer-links .footer-link a {
+  color: #000000;
 }
 
 footer .footer-links .footer-link:hover {
