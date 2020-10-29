@@ -370,23 +370,24 @@ ul {
               padding-top: 1.5rem;
             }
           }
+        }
 
-          & .ceo-bioglaphy {
-            position: absolute;
-            opacity: 0;
+        & .ceo-bioglaphy {
+          position: absolute;
+          // opacity: 0;
+          background-color: red;
 
+          & .bioglaphy-title {
+            color: red;
+          }
+
+          & .bioglaphy-lists {
             & .bioglaphy-list {
-              padding-top: 1.5rem;
-
-              & li {
-                padding-top: 1.5rem;
-                display: block;
-                width: 1000px;
-              }
 
             }
 
           }
+
         }
 
 

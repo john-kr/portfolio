@@ -430,19 +430,13 @@ ul {
   padding-top: 1.5rem;
 }
 
-.ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-content .ceo-bioglaphy {
+.ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-bioglaphy {
   position: absolute;
-  opacity: 0;
+  background-color: red;
 }
 
-.ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-content .ceo-bioglaphy .bioglaphy-list {
-  padding-top: 1.5rem;
-}
-
-.ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-content .ceo-bioglaphy .bioglaphy-list li {
-  padding-top: 1.5rem;
-  display: block;
-  width: 1000px;
+.ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-bioglaphy .bioglaphy-title {
+  color: red;
 }
 
 .ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-messages-switcher {
