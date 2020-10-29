@@ -298,7 +298,8 @@ ul {
 
 .company-displination-sec .company-displination-main p {
   margin-top: 2.5rem;
-  padding: 0 5rem;
+  padding: 0 10rem;
+  text-align: center;
 }
 
 .company-displination-sec .company-displination-main p:first-child {
@@ -432,6 +433,7 @@ ul {
 
 .ceo-sec .ceo-container .ceo-content .ceo-messages-container .ceo-bioglaphy {
   position: absolute;
+  opacity: 0;
   background-color: red;
 }
 
@@ -516,7 +518,7 @@ footer .footer-title {
   position: absolute;
   bottom: 70px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #000000;
 }
 
 footer .backtotop {
